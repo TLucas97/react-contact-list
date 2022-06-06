@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 1s linear;
   }
 }
 
@@ -35,4 +35,32 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.border-bottom-custom{
+  border: 2px solid #000000;
+  border-radius: 5px;
+  background: #000000;
+  color: #ffffff;
+}
+
+/* remove focus from all inputs */
+input:focus {
+  outline: none;
+}
+
+input{
+  padding: 0.3em;
+  border-radius: 5px;
+  border: 1px solid #00000070;
+}
+
+.main-wrapper{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2em;
+}
+
+p{
+  font-weight: bold;
 }
